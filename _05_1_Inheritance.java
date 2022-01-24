@@ -12,6 +12,7 @@ class Dog extends Animal2 { // Dog 클래스에 name 이라는 객체변수와 s
                             // Animal 클래스를 상속했기 때문에 그대로 사용이 가능하다.
                             // Dog는 Animal2에 포함되기 때문에 "개는 동물이다"라고 표현할 수 있다.
                             // 자바는 이러한 관계를 IS-A 관계라고 표현한다. 즉 "Dog is a Animal" 과 같이 말할 수 있다.
+                            // 자바는 클래스가 동시에 하나 이상의 클래스를 상속받는 다중 상속을 금지한다.
     void sleep() {
         System.out.println(this.name+" zzz"); // this는 this가 속해있는 클래스인 Dog의 객체 dog를 지칭한다.
     }

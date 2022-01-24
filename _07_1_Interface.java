@@ -50,8 +50,8 @@ interface Predator{ // 중요 클래스를 작성한다면 클래스의 구현�
     }
 
     int LEG_COUNT = 4;  // 인터페이스 상수
-    // 인터페이스에 정의한 상수는 public static final을 생략해도 자동으로 public static final이 적용된다.
-    // 다른 형태의 상수 정의는 불가능하다.
+                        // 인터페이스에 정의한 상수는 public static final을 생략해도 자동으로 public static final이 적용된다.
+                        // 다른 형태의 상수 정의는 불가능하다.
 
     static int speed() {
         return LEG_COUNT * 30;
@@ -91,7 +91,7 @@ class ZooKeeper2 {
 }
 
 
-public class _07_Interface {
+public class _07_1_Interface {
     public static void main(String[] args) {
         ZooKeeper1 zooKeeper1 = new ZooKeeper1();
         Tiger1 tiger1 = new Tiger1();
