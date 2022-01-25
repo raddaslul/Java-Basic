@@ -19,14 +19,14 @@ public class _03_1_Method {
     public static void main(String[] args) {
         _03_1_Method method = new _03_1_Method();
         int c = method.sum1(3, 4); // 3, 4는 인수(argument)
-                                        // 입력값과 리턴값이 있는 메소드 사용방법
-                                        // : 리턴값받을변수 = 객체.메소드명(입력인수1, 입력인수2, ...)
+                                         // 입력값과 리턴값이 있는 메소드 사용방법
+                                         // : 리턴값받을변수 = 객체.메소드명(입력인수1, 입력인수2, ...)
         System.out.println(c);  // 7 출력
 
 
         String a = method.say1(); // 입력값이 없고 리턴값만 있는 메소드 사용방법
-                                 // : 리턴값받을변수 = 객체.메소드명()
-        System.out.println(a);  // "Hi" 출력
+                                  // : 리턴값받을변수 = 객체.메소드명()
+        System.out.println(a); // "Hi" 출력
 
 
         method.sum2(3, 4); // 입력값이 있고 리턴값이 없는 메소드 사용방법
